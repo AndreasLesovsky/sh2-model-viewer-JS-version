@@ -1,0 +1,332 @@
+/* ---- Allgemein ---- */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-std);
+	font-size: 1.05rem;
+	line-height: 1.5;
+	color: var(--col-font);
+	background-color: var(--col-bg);
+	letter-spacing: 0.02rem;
+}
+
+::selection {
+	background-color: var(--col-main) !important;
+	/* Hintergrundfarbe des markierten Textes */
+	color: var(--col-font-inverted) !important;
+	/* Farbe des markierten Textes */
+}
+
+h1 {
+	font-family: var(--font-headlines);
+	line-height: 1.2;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: var(--font-std);
+	line-height: 1.2;
+	font-size: 2.25rem;
+	font-weight: bold;
+}
+
+.btn-primary {
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	font-family: var(--font-std);
+	font-size: 1.1rem;
+	color: var(--col-font-inverted);
+	font-weight: bold;
+	text-decoration: none;
+	text-wrap: nowrap;
+	background: var(--col-main);
+	padding: 0.75rem 1.5rem;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.btn-primary svg {
+	fill: var(--col-font-inverted);
+	transition: fill 0.5s;
+	top: 0.15rem;
+	margin-right: 0.5rem;
+}
+
+/* ---- ENDE Allgemein ---- */
+
+/* ---- Hamburger ---- */
+#menu-btn {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	background: var(--col-bg);
+	width: 2.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+	transition: border ease .5s;
+	border: none;
+}
+
+#menu-btn svg {
+	width: 2.5rem;
+	height: 2.5rem;
+	stroke: var(--col-hvr);
+	transition: stroke ease .5s;
+}
+
+/* ---- ENDE HAmburger ---- */
+
+/* ---- Header ---- */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 2rem;
+	font-family: var(--font-std);
+}
+
+a.logo {
+	max-width: 35rem;
+	height: auto;
+}
+
+a.logo img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+nav ul {
+	text-wrap: nowrap;
+	display: flex;
+	gap: 0.5rem;
+}
+
+nav button {
+	font-size: 1.05rem;
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	color: var(--col-font);
+	transition: all ease .5s;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+/* 
+nav button:hover {
+	background-image: url(../bilder/nav-hover-fog-image.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
+
+
+nav ul button::before {
+	content: '';
+	display: inline-block;
+	height: 3px;
+	background-color: var(--col-main);
+	border-radius: 2px;
+	position: absolute;
+	top: -0.75rem;
+	left: 1rem;
+	width: calc(100% - 2rem);
+	opacity: 0;
+	transition: all ease-in-out 400ms;
+}
+
+nav ul button:hover::before {
+	left: 1rem;
+	top: 0;
+	opacity: 1;
+}
+
+nav ul button::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../bilder/nav-hover-fog-image.png);
+	background-size: 85%;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+	/* Hier die Opazität einstellen */
+	z-index: -1;
+	/* Damit das Bild hinter dem Button bleibt */
+	transition: all ease-in-out 400ms;
+}
+
+nav ul button:hover::after {
+	opacity: 1;
+}
+
+/* ---- ENDE Header ---- */
+main {
+	padding-block: 0.5rem 4rem;
+	justify-content: center;
+}
+
+/* swiper */
+
+.swiper-slide {
+	display: flex !important;
+	gap: 1.5rem;
+}
+
+.swiper-slide>div {
+	flex: 1;
+}
+
+.swiper-slide h3,
+.swiper-slide p {
+	opacity: 0;
+	transition: opacity 2s ease-in-out;
+	z-index: 20;
+}
+
+.swiper-slide h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.swiper-slide.swiper-slide-active h3,
+.swiper-slide.swiper-slide-active p {
+	opacity: 1 !important;
+}
+
+canvas {
+	width: 100%;
+	border-radius: 0.75rem;
+}
+
+.canvas-container {
+	height: 40rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: var(--col-font-inverted) !important;
+	width: 4rem !important;
+	height: 4rem !important;
+	background-color: var(--col-main) !important;
+	border-radius: 100vw;
+	transform: scale(0.7);
+}
+
+.swiper-button-prev {
+	left: calc(50% + 1.25rem) !important;
+}
+
+.swiper-button-prev::after {
+	transform: translateX(-0.25rem);
+}
+
+.swiper-button-next::after {
+	transform: translateX(0.25rem);
+}
+
+.swiper-pagination {
+	position: relative !important;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+	font-size: 0.9rem;
+	background-color: var(--col-bg-inverted);
+	color: var(--col-font-inverted);
+	padding-block: 2rem 1rem;
+	line-height: 1.5;
+}
+
+.footer-content>div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-logo {
+	max-width: 12rem;
+}
+
+footer a {
+	color: #c9c9c9;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+footer a:hover {
+	color: var(--col-font-inverted);
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+.footer-content>p:last-of-type {
+	color: #c9c9c9;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+footer i {
+	color: var(--col-main);
+}
+
+footer a i {
+	color: #c9c9c9;
+	margin-inline: 0.25rem;
+	transition: all 0.5s ease;
+}
+
+footer a:hover i {
+	color: var(--col-font-inverted);
+}
+
+/* Versteckter Bereich */
+.footer-toggle-btn {
+	background-color: var(--col-main);
+	color: var(--col-font-inverted);
+	border: none;
+	padding: 0.75rem 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+	justify-self: end;
+}
+
+.footer-toggle-btn:hover {
+	background-color: var(--col-main-dark);
+}
+
+/* Versteckter Container */
+.hidden-info {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-out;
+	background-color: var(--col-bg-light);
+	color: var(--col-font-dark);
+
+}
+
+.hidden-info>p:first-of-type {
+	padding-top: 3rem;
+}
+
+/* Sichtbarer Zustand */
+.hidden-info.active {
+	max-height: 1000px;
+	/* Maximalhöhe für die Animation (anpassen, wenn nötig) */
+}

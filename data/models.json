@@ -1,0 +1,791 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "path": "sh2_models/characters/james.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "James Sunderland",
+            "description-text": "James Sunderland ist der Protagonist von Silent Hill 2. Als eines Tages ein merkwürdiger Brief in der Handschrift seiner verstorbenen Frau bei ihm eintrifft, macht er sich auf den Weg zu dem erinnerungsvollen Ort der in dem Brief erwähnt wird - nach Silent Hill."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/characters/angela.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Angela Orosco",
+            "description-text": "Angela ist die erste Person, welche James in Silent Hill trifft. Sie steht auf einem Friedhof und schaut sich die Gräber an. Sie erzählt, dass sie in Silent Hill nach ihrer Mutter sucht und warnt ihn bereits zu Beginn des Spiels, dass es in Silent Hill gefährlich ist."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/characters/eddy.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Eddie Dombrowski",
+            "description-text": "Auf den ersten Blick ist Eddie nur ein weiteres Opfer der geheimnisvollen Geschehnisse in Silent Hill. Ebenso wie James stammt er nicht aus diesem Ort, sondern reiste erst kürzlich aus unbekannten Gründen dort hin."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/characters/laura.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -550, 250],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Laura",
+            "description-text": "Laura ist ein achtjähriges Mädchen, das durch Silent Hill wandert. Sie ist stur und eigensinnig und James gegenüber nicht sehr wohl gesonnen. Sie wirkt ziemlich gelassen angesichts der Vorkommnisse in der Stadt."
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/characters/maria.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Maria",
+            "description-text": "Maria ist eine rätselhafte Person, die James' Frau Mary wie aus dem Gesicht geschnitten ist, selbst ihre Stimme ist identisch. Neben ihrer Haarfarbe unterscheidet Maria sich von James' Frau jedoch stark, was ihr Auftreten angeht. Sie ist sexy, moderner und verführerischer gekleidet und hat einen extrovertierteren Charakter."
+        },
+        {
+            "id": 6,
+            "path": "sh2_models/characters/mary.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Mary Shepherd-Sunderland",
+            "description-text": "Mary ist James' Frau, die vor drei Jahren an einer Krankheit starb. Doch als James einen Brief von ihr erhält, macht er sich auf die Suche nach ihr in Silent Hill, welches ein Ort der Erinnerungen für beide ist."
+        },
+        {
+            "id": 7,
+            "path": "sh2_models/characters/mira-the-dog.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -600, 200],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Mira der Hund",
+            "description-text": "Wer weiß wer hinter allem steckt..."
+        }
+    ],
+    "bosses": [
+        {
+            "id": 1,
+            "path": "sh2_models/bosses/pyramid-sword.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [250, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Pyramid Head (Großes Messer)",
+            "description-text": "Pyramid Head (im deutschen Spieletext „Pyramidenkopf“, von James Sunderland „Red Pyramid Thing“ genannt) ist ein wiederkehrender Gegner aus Silent Hill 2 und vermutlich die populärste Figur des gesamten Silent-Hill-Universums. Anfangs ist er mit einem großen Messer bewaffnet, welches so schwer ist, dass das Monster es hinter sich herschleifen muss. Ab dem Krankenhauskeller wird das Messer durch einen langen Speer ersetzt. Hier sieht man ihn mit dem Großen Messer."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/bosses/fleshlips.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Flesh Lips",
+            "description-text": "Eine aufgeblähte, missgebildete Masse aus Fleisch, die in einem Metallrahmen eingeschlossen ist. Sie besitzt menschenähnliche Gliedmaßen, die an den oberen und unteren Enden herausragen. Dieses Monster greift in einer kleinen Gruppe an, wobei es sich an der Decke entlangbewegt."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/bosses/abstract-daddy.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Abstract Daddy",
+            "description-text": "Dieses ausgesprochen bizarre Monster sieht aus wie zwei Menschen die miteinander in einem Bett verwachsen sind. An der Vorderseite des Wesens befindet sich ein Mund. Das Monster bewegt sich sehr langsam, man hat praktisch nie Probleme Abstand zu gewinnen um dann zu kontern."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/bosses/pyramid-spear.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [250, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Pyramid Head (Speer)",
+            "description-text": "Pyramid Head (im deutschen Spieletext „Pyramidenkopf“, von James Sunderland „Red Pyramid Thing“ genannt) ist ein wiederkehrender Gegner aus Silent Hill 2 und vermutlich die populärste Figur des gesamten Silent-Hill-Universums. Anfangs ist er mit einem großen Messer bewaffnet, welches so schwer ist, dass das Monster es hinter sich herschleifen muss. Ab dem Krankenhauskeller wird das Messer durch einen langen Speer ersetzt. Hier sieht man ihn mit dem Speer."
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/bosses/mary-boss.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, 0, 700],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Mary Demon",
+            "description-text": "Eine Erscheinung von Mary, wenn sie ein monströses Aussehen annimmt. Sie schwebt in einem Metallrahmen, in einer Pose als sei sie auf dem Kopf stehend hingerichtet worden. Sie besitzt einen langen, grünen, weinrebenartigen Tentakel und wird von mottenartigen Insekten begleitet."
+        }
+    ],
+    "monsters": [
+        {
+            "id": 1,
+            "path": "sh2_models/monsters/jackets.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Lying Figure",
+            "description-text": "Dieses Monster sieht aus wie ein mit schleimiger Haut bedeckter, gesichts- und armloser Mensch. Es erweckt den Eindruck, seine Arme seien in den Rumpf eingewachsen, als trüge es eine mit ihm verwachsene Zwangsjacke."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/monsters/nurse.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 350],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Bubble Head Nurse",
+            "description-text": "Diese Krankenschwestern erinnern ein wenig an Zombies und bewegen sich auch so. Im Gegensatz zu jenen aus dem ersten Teil sind sie relativ sexy gekleidet, wenn man davon absieht, dass sie dreck- oder möglicherweise blutverschmiert sind. Ihr Kopf zeigt in die falsche Richtung und ist grotesk geschwollen."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/monsters/mannekin.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Mannequin",
+            "description-text": "Diese Monster sehen aus wie zwei aneinandergesetzte weibliche Unterkörper. Oft stehen sie bewegungslos da wie Statuen und erwachen erst, wenn man sich ihnen nähert, wobei man im Dunkeln wesentlich näher an ihnen vorbeilaufen kann, ohne sie auf sich aufmerksam zu machen. So lange sie sich nicht bewegen, reagiert das Radio nicht auf sie."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/monsters/mandarin.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 550],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Mandarin",
+            "description-text": "Diese äußerst seltenen Monster wirken wie entstellte Menschen mit extrem langen, keulenartigen Armen. Damit hangeln sie sich an den Unterseiten von Gitterböden entlang. Aus den lippenartigen Öffnungen ihrer Arme schießen sie Dornen ab, die James treffen können, wenn er zu lange still über ihnen steht. Wenn man nicht gerade über einem Mandarin stehen bleibt, stellen diese Monster kaum eine Gefahr dar. "
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/monsters/bug.mdl.gltf",
+            "scale": [1.5, 1.5, 1.5],
+            "cameraPosition": [100, 70, 250],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Creeper",
+            "description-text": "Eine insektenartige Kreatur, die sich mit hoher Geschwindigkeit bewegt. Ihre Bisse verursachen nur geringen Schaden, daher sind sie eher lästig als gefährlich, es sei denn sie tauchen in Schwärmen auf. Man kann sie mit einem einzigen Tritt töten, meist ist es jedoch besser, einfach vor ihnen davonzulaufen."
+        }
+    ],
+    "weapons": [
+        {
+            "id": 1,
+            "path": "sh2_models/weapons/wp_kakuzai.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, 0, 0],
+            "rotation": [3.14159, 3.14159, 3.14159],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Holzbrett",
+            "description-text": "<strong>Fundort:</strong> In einer kurzen Zwischensequenz im Tunnelbaugebiet am nördlichen Ende der Vachss Road, East South Vale.<br><br><strong>Beschreibung:</strong> <em>„Holzplanke mit Nägeln an einem Ende. Nicht sehr stark, aber leicht zu handhaben.“</em><br><br><strong>Zweck:</strong> Dies ist die erste Waffe, die James erhält und die schwächste im gesamten Spiel. Es handelt sich um eine etwa drei Fuß lange Holzplanke mit Nägeln an einem Ende. Sie kann nur aus kurzer Entfernung verwendet werden und verursacht nur leichte Schäden. Halte ein scharfes Auge auf die Reaktionen der Gegner, um Angriffen auszuweichen, wenn du dich ihnen näherst. Oder noch besser, versuche, Gegner von hinten anzugreifen, um mögliche Angriffe zu verhindern.<br><br>Halte R2, um die Planke bereitzuhalten, und drücke X, um sie zu schwingen. Für einen etwas stärkeren, überkopf heruntergeführten Schlag halte X fest. James erwirbt die Holzplanke in einer kurzen Zwischensequenz innerhalb des kleinen Tunnelbaugebiets am nördlichen Ende der Vachss Road in East South Vale, nicht weit vom Beginn des Spiels entfernt."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/weapons/wp_pipe.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, 0, 0],
+            "rotation": [3.14159, 3.14159, 3.14159],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Stahlrohr",
+            "description-text": "<strong>Fundort:</strong> Im Motorraum eines Autos an der Texxon-Tankstelle, Nathan Avenue, West South Vale, nach dem Verlassen von Rosewater Park.<br><br><strong>Beschreibung:</strong> <em>„3 Fuß langes Stahlrohr. Nicht sehr effektiv, aber gute Reichweite.“</em><br><br><strong>Zweck:</strong> Besser als die Holzplanke, bietet mehr Reichweite und eine etwas stärkere Schlagkraft. Es kann eine Vorwärtsstichbewegung oder einen stärkeren Überkopfschlag ausführen. Auf dem Schwierigkeitsgrad „Hard Action Level“ gibt es eine zusätzliche schnelle Über-schulter-Schwingbewegung, die sogar während des Gehens ausgeführt werden kann."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/weapons/wp_handgun.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 300],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Pistole",
+            "description-text": "<strong>Fundort:</strong> Im Einkaufswagen in Raum 301 der Wood Side Apartments. James benötigt zunächst die Taschenlampe, um sie sehen und aufnehmen zu können.<br><br><strong>Beschreibung:</strong> <em>„Volles Magazin fasst 10 Kugeln. Leichte Handfeuerwaffe. Nicht besonders durchschlagskräftig, aber einfach zu benutzen.“</em><br><br><strong>Zweck:</strong> Eine M92F Beretta-Pistole mit 10 Kugeln pro Magazin. Handgun-Bullet-Pickups enthalten normalerweise zehn Kugeln und sind fast überall zu finden, was diese Waffe oft einsatzbereit macht. Dennoch wird empfohlen, zunächst einen ordentlichen Vorrat anzulegen, bevor du sie regelmäßig benutzt. Halte R2, um zu zielen, und drücke X, um einen einzelnen Schuss abzufeuern. Halte X gedrückt, um kontinuierlich auf deinen Feind zu schießen.<br><br>Ehrlich gesagt ist die Handgun die beste Allround-Waffe im Spiel, mit hervorragender Zuverlässigkeit, Konstanz und angemessener Durchschlagskraft. Daher solltest du sie häufiger als jede andere Waffe verwenden."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/weapons/x_handbul.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [-200, -450, 100],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 200],
+            "description-heading": "Pistolenmunition",
+            "description-text": "Munition für die Pistole."
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/weapons/wp_shotgun.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 300],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schrotflinte",
+            "description-text": "<strong>Fundort:</strong> Im offenen Schließfach im Damen-Umkleideraum im zweiten Stock des Brookhaven Hospitals.<br><br><strong>Beschreibung:</strong> <em>„Maximale Kapazität: 6 Schüsse. Schwer zu handhaben, aber kann Gegner in einer Gruppe angreifen.“</em><br><br><strong>Zweck:</strong> Eine Pump-Action-Schrotflinte mit breitem Streuradius. Die Shotgun hat eine maximale Kapazität von sechs Patronen und muss nach jedem Schuss nachgeladen werden. Patronen-Pickups enthalten normalerweise sechs Schuss und sind relativ häufig zu finden, was einen moderaten Einsatz der Shotgun ermöglicht. Halte R2, um zu zielen, und drücke X, um einen Schuss abzugeben. Aufgrund ihrer Stärke und des manuellen Nachladens hat sie eine recht langsame Feuerrate, aber sie wird die meisten Gegner mit einem Schuss umwerfen, wenn du nah genug dran bist.<br><br>Komm so nah wie möglich an dein Ziel heran, um die maximale Kraft zu entfalten, da der Streuradius der Shotgun enger wird, je näher du bist. Spare Shotgun-Munition für Bosskämpfe und härtere Gegner und benutze die Handgun für leichtere Bedrohungen."
+
+        },
+        {
+            "id": 6,
+            "path": "sh2_models/weapons/x_shotbul.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [-200, -450, 100],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 200],
+            "description-heading": "Schrotflintenpatronen",
+            "description-text": "Patronen für die Schrotflinte."
+        },
+        {
+            "id": 7,
+            "path": "sh2_models/weapons/wp_riflgun.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 360],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Jagdgewehr",
+            "description-text": "<strong>Fundort:</strong> Auf dem Waffenständer im Waffenkammerraum des Wärterbüros im Toluca-Gefängnis.<br><br><strong>Beschreibung:</strong> <em>„Maximale Kapazität: 4 Schüsse. Braucht lange zwischen den Schüssen, aber jeder Schuss ist sehr kraftvoll.“</em><br><br><strong>Zweck:</strong> Das Jagdgewehr ist sehr präzise und besser für Fernkämpfe geeignet. Es dauert jedoch lange, bis James das Gewehr hebt, zielt und feuert, daher sind andere Optionen wie die Shotgun oder Handgun für den Nahkampf vorzuziehen. Das Gewehr fasst vier Kugeln pro Magazin, und Gewehrmunition-Pickups enthalten ebenfalls nur vier Kugeln. Diese sind zudem recht selten, also verwende deine Gewehrmunition sparsam.<br><br>Speichere das Jagdgewehr idealerweise für Bosskämpfe, besonders die letzten beiden am Ende des Spiels, da es gegen normale Gegner trotz seiner großen Stärke nicht sehr effektiv ist. Halte R2, um die Waffe zu zielen, und drücke X, um zu schießen, wobei James zwischen den Schüssen lange Pausen benötigt, um sein Ziel einzustellen."
+        },
+        {
+            "id": 8,
+            "path": "sh2_models/weapons/x_riflebul.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [-200, -450, 100],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 200],
+            "description-heading": "Jagdgewehrpatronen",
+            "description-text": "Patronen für das Jagdgewehr."
+        },
+        {
+            "id": 9,
+            "path": "sh2_models/weapons/rwp_chinanife.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, 0, 300],
+            "rotation": [0.77, 0.77, 1.55],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Chinesisches Hackmesser",
+            "description-text": "<strong>Fundort:</strong> Das Chinese Cleaver steckt im Heaven's Night Bar zu Beginn des Spiels und kann nicht übersehen werden.<br><br><strong>Beschreibung:</strong> <em>„Quadratische Klinge. Hässlich, aber kraftvoll und einfach zu bedienen.“</em> Die einzige Nahkampfwaffe für Maria und überraschend effektiv. Zwar ist die Reichweite aufgrund der kompakten Größe begrenzt, doch für eine Nahkampfwaffe ist sie dennoch sehr kraftvoll und bietet zwei Angriffe. Halte R2, um das Cleaver zu heben, und drücke X für einen seitlichen Hieb oder halte X gedrückt, um einen abwärts gerichteten Schlag auszuführen. Da du laufen und zuschlagen kannst, ist eine effektive Strategie, R2 gedrückt zu halten, ein Ziel anzuvisieren und es während des Laufens immer wieder zu treffen, sodass es keine Chance hat, sich auf die Angriffe vorzubereiten.<br><br><strong>Zweck:</strong> Eine kraftvolle und vielseitige Nahkampfwaffe, die sich perfekt für dynamische Kämpfe eignet."
+        },
+        {
+            "id": 10,
+            "path": "sh2_models/weapons/wp_colt.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 300],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Revolver",
+            "description-text": "<strong>Fundort:</strong> Maria trägt den Revolver von Beginn an im Szenario.<br><br><strong>Beschreibung:</strong> <em>„Maximale Kapazität: 10 Kugeln. Einfach zu verwenden, aber nicht besonders stark.“</em> Die einzige Schusswaffe im Szenario, aber dennoch recht kraftvoll und effizient, sogar etwas mehr als die Pistole im Hauptszenario. Sie hat trotz ihres Revolver-Designs die gleiche Kapazität von 10 Kugeln, auch wenn dies unwahrscheinlich erscheint – das lassen wir jedoch durchgehen. Halte R2 gedrückt, um zu zielen, und drücke X, um zu schießen. Obwohl du nur mit einer Kugel im Lauf startest, wirst du ziemlich viele Munitionsvorräte finden, sodass du nicht allzu sparsam damit umgehen musst.<br><br><strong>Zweck:</strong> Eine vielseitige und effektive Waffe im Szenario, die von Beginn an verfügbar ist."
+        },
+        {
+            "id": 11,
+            "path": "sh2_models/weapons/wp_nata.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 300],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Großes Messer",
+            "description-text": "<strong>Fundort:</strong> Auf dem Tisch in der Mitte des Verstecks von Pyramid Head im Labyrinth.<br><br><strong>Beschreibung:</strong> <em>„Massive Waffe, die von Pyramid Head geführt wird. Schwer zu benutzen, aber tödlich.“</em><br><br><strong>Zweck:</strong> Ein enorm großes und schweres Messer, das sehr langsam und umständlich zu führen ist, aber verheerende Kraft liefert und fast alles mit einem Schlag niederstrecken oder sogar töten kann. Aufgrund seines Gewichts muss James es hinter sich herziehen, was es relativ unpraktisch für längere Nutzung macht. Die mächtigste Angriffstechnik ist der Überkopfschlag, der jedoch eine längere Vorbereitungszeit benötigt. Es kann hilfreich sein, den Hyper Spray (in jeder Farbe) zu benutzen, um Gegner zu vereisen und dann mit diesem Angriff zu attackieren."
+        },
+        {
+            "id": 12,
+            "path": "sh2_models/weapons/wp_csaw.mdl.gltf",
+            "scale": [1.5, 1.5, 1.5],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Kettensäge",
+            "description-text": "<strong>Fundort:</strong> Eingestochen in die gestapelten Holzstämme gegenüber der Silent Hill Ranch in East South Vale, kurz nach dem Friedhof, im New Game Plus.<br><br><strong>Beschreibung:</strong> <em>„Gasbetriebene Kettensäge. Extrem hohe Angriffskraft.“</em><br><br><strong>Zweck:</strong> Diese Waffe wird nach dem ersten Durchspielen freigeschaltet und ist in einem New Game Plus früh im Spiel verfügbar. Sie ist zwar schwer und etwas schwierig zu bedienen, kann aber vernichtende Treffer landen und Gegner mit einem Schlag töten. Um sie zu starten, halte R2 und drücke X, um hin und her auf Kopfhöhe zu sägen. Ein festerer X-Druck führt zu einem mächtigeren Vorwärtsschlag. Trotz ihrer enormen Kraft ist die Kettensäge aufgrund des Startvorgangs und der langsamen Schwinggeschwindigkeit nicht immer einfach zu verwenden. Überlege, den Hyper Spray zu nutzen, um Gegner einzufrieren, bevor du zuschlägst, falls du Schwierigkeiten hast. Ein interessanter Bonus ist James’ Kampfschrei - töte ein paar Gegner mit der Kettensäge und stehe über einer Leiche, ohne den Controller zu berühren, und James wird irgendwann laut schreien."
+        },
+        {
+            "id": 13,
+            "path": "sh2_models/weapons/wp_sp.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 100],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Hyperspray",
+            "description-text": "<strong>Fundort:</strong> Auf dem Tisch im Wohnwagen an der Kreuzung von Saul- und Harris-Straße in East South Vale, in einem New Game Plus verfügbar.<br><br><strong>Beschreibung:</strong> <em>„Verdächtige Spraydose. Wirkung unbekannt.“</em> James kann diese mysteriöse Spraydose nur in einem New Game Plus nach dem Freischalten finden. Das Hyper Spray friert normalerweise Gegner ein und erlaubt es, sie mit anderen Methoden anzugreifen. Gegner bleiben bis zu 10 Sekunden eingefroren, was dir Zeit gibt, zu handeln. James hält sich die Hand vor den Mund, während er das Spray benutzt, da es schädlich ist und ihn bei jedem Einsatz leicht verletzt.<br><br><strong>Zweck:</strong> Das Hyper Spray wird nach einer bis drei Spieldurchläufen freigeschaltet. Dies beinhaltet, das Spiel einmal im Hard-Action-Level zu beenden, es zweimal zu beenden, wobei mindestens einmal auf Normal gespielt wird, oder es dreimal auf beliebiger Schwierigkeit abzuschließen. Sobald es freigeschaltet ist, kann es in einem New Game Plus entweder tagsüber oder nachts im Wohnwagen gefunden werden."
+
+        }
+    ],
+    "objects": [
+        {
+            "id": 1,
+            "path": "sh2_models/objects/apartments-clock.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Pendeluhr aus den Woodside Apartments",
+            "description-text": "An dieser Uhr muss man im Spiel ein bedeutsames Rätsel lösen, bei dem man erst die Zeiger finden muss und nach interpretieren eines Textes und eines Bildes die korrekte Uhrzeit einstellen muss, um weiterzukommen."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/objects/hotel-clock.mdl.gltf",
+            "scale": [0.5, 0.5, 0.5],
+            "cameraPosition": [0, -450, 490],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Spieluhr aus dem Lakeview Hotel",
+            "description-text": "Ein weiteres Rätsel mit einer Uhr, bei der man 3 kleinere Spieluhren finden muss und diese in die große einsetzen muss."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/items/x_snow.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 50, 100],
+            "rotation": [0, 0.3, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Spieldose „Schneewittchen“",
+            "description-text": "<strong>Fundort:</strong> Auf dem Regal in der Vorratskammer, Lake View Hotel 1F.<br><br><strong>Beschreibung:</strong> <em>„Musikbox mit 'Schneewittchen' darauf. In der Vorratskammer gefunden.“</em><br><br><strong>Zweck:</strong> Eine der drei Musikboxen, die benötigt werden, um das Musikbox-Rätsel in der Lobby, Lake View Hotel 1F, zu lösen."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/items/x_cinderella.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 50, 100],
+            "rotation": [0, 0.3, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Spieldose „Aschenputtel“",
+            "description-text": "<strong>Fundort:</strong> Im verschlossenen Koffer in Zimmer 202, Lake View Hotel 2F.<br><br><strong>Beschreibung:</strong> <em>„Musikbox mit einer Figur aus dem Märchen 'Aschenputtel'. In einem Koffer in Zimmer 202 gefunden.“</em><br><br><strong>Zweck:</strong> Eine der drei Musikboxen, die benötigt werden, um das Musikbox-Rätsel in der Lobby, Lake View Hotel 1F, zu lösen."
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/items/x_mermaid.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 50, 100],
+            "rotation": [0, 0.3, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Spieldose „Kleine Meerjungfrau“",
+            "description-text": "<strong>Fundort:</strong> Am Rand des westlichen Springbrunnens im Hinterhof des Lake View Hotels.<br><br><strong>Beschreibung:</strong> <em>„Musikbox mit einer Figur aus dem Märchen 'Die kleine Meerjungfrau'. Am Gartenbrunnen gefunden.“</em><br><br><strong>Zweck:</strong> Eine der drei Musikboxen, die benötigt werden, um das Musikbox-Rätsel in der Lobby, Lake View Hotel 1F, zu lösen."
+        },
+        {
+            "id": 6,
+            "path": "sh2_models/objects/bab.mdl.gltf",
+            "scale": [0.75, 0.75, 0.75],
+            "cameraPosition": [200, 200, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Kinderwagen",
+            "description-text": "Ein Kinderwagen aus dem Innenhof der Woodside Apartments in dem ein wichtiger Gegenstand liegt."
+        },
+        {
+            "id": 7,
+            "path": "sh2_models/objects/boat.mdl.gltf",
+            "scale": [0.25, 0.25, 0.25],
+            "cameraPosition": [200, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Boot",
+            "description-text": "Das Boot mit dem James den Toluca Lake überquert um das Lakeview Hotel zu erreichen."
+        },
+        {
+            "id": 8,
+            "path": "sh2_models/objects/labyrinth-cube.mdl.gltf",
+            "scale": [0.8, 0.8, 0.8],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Würfel aus dem Labyrinth",
+            "description-text": "Dieser Würfel lässt sich im Spiel drehen um so einen hinter dem Würfel gelegenen würfelförmigen Raum zu drehen der einem verschiedenen Wege im Labyrinth zugänglich macht."
+        },
+        {
+            "id": 9,
+            "path": "sh2_models/objects/piano.mdl.gltf",
+            "scale": [0.4, 0.4, 0.4],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Piano",
+            "description-text": "Ein Piano welches im Lakeview Hotel im \"Lake View Restaurant\" vorzufinden ist."
+        },
+        {
+            "id": 10,
+            "path": "sh2_models/objects/piz.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 300],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Pizza",
+            "description-text": "\"Diese Stadt ist voller Monster! Wie kann man hier nur herumsitzen und Pizza essen!?\" - James Sunderland"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "path": "sh2_models/items/i_knife.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 150, 150],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Angelas Messer",
+            "description-text": "<strong>Fundort:</strong> Erhält man von Angela im Erdgeschoss des Blue Creek Apartmenthauses im Nebenraum von Apartment 109.<br><br><strong>Beschreibung:</strong> <em>„Messer von Angela. Ich habe nicht vor, es als Waffe zu benutzen.“</em><br><br><strong>Untersuchung:</strong> <em>„Die Klinge ist mit etwas Rotem befleckt.“</em><br><br><strong>Zweck:</strong> Wenn es häufig im Inventar überprüft wird, erhöht sich die Wahrscheinlichkeit, das „Im Wasser“-Ende zu erhalten."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/items/i_photo.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 100],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Foto von Mary",
+            "description-text": "<strong>Fundort:</strong> Befindet sich von Beginn des Spiels im Inventar.<br><br><strong>Beschreibung:</strong> <em>„Ein Foto, als sie noch gesund war.“</em><br><br><strong>Zweck:</strong> Wenn es untersucht wird, könnte es das Ende des Spiels beeinflussen."
+        },
+        {
+            "id": 18,
+            "path": "sh2_models/items/x_letterm.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 150],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Mary's Brief",
+            "description-text": "<strong>Fundort:</strong> Erhält man zu Beginn des Spiels. <br><br><strong>Beschreibung:</strong> <em>„Das ist definitiv Marys Name in ihrer eigenen Handschrift auf der Vorderseite des Umschlags.“</em><br><br><strong>Untersuchung:</strong> <em>„Es steht nichts auf dem Papier.“</em> (nach dem Eddie-Bosskampf)<br><em>„Es ist nichts im Umschlag.“</em> (nach dem Ansehen des Videobandes)<br><br><strong>Zweck:</strong> Wenn der Brief häufig im Inventar überprüft wird, erhöht sich die Wahrscheinlichkeit, das „Im Wasser“-Ende zu erhalten."
+        },
+        {
+            "id": 32,
+            "path": "sh2_models/items/x_radio.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 100],
+            "rotation": [1.55, -1.55, -1.55],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Radio",
+            "description-text": "<strong>Fundort:</strong> Befindet sich auf der Baustelle am nördlichen Ende der Vachss Road, East South Vale.<br><br><strong>Beschreibung:</strong> <em>„Kleines tragbare Radio. Gibt statisches Rauschen von sich, wenn Monster in der Nähe sind.“</em><br><br><strong>Zweck:</strong> Gibt statisches Rauschen von sich, um vor nahegelegenen Feinden zu warnen. Lautstärke kann angepasst oder ein- und ausgeschaltet werden."
+        },
+        {
+            "id": 16,
+            "path": "sh2_models/items/x_jlight.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 150],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Taschenlampe",
+            "description-text": "<strong>Fundort:</strong> Auf der Schaufensterpuppe, die Marys Kleidung trägt, im Raum 205, Wood Side Apartments, 2. Etage.<br><br><strong>Beschreibung:</strong> <em>„Ein-/Ausschalter mit nur einem Knopfdruck. Momentan in der Brusttasche.“</em><br><br><strong>Zweck:</strong> Beleuchtet James' Weg und ermöglicht es ihm, in dunklen Bereichen Gegenstände aufzuheben und die Karte zu lesen."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/items/x_battery.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, -680, 50],
+            "rotation": [0, 3.14159, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Trockenzellenbatterie",
+           "description-text": "<strong>Fundort:</strong> Auf dem Vorsprung über den greifenden Armen in Raum M6, Brookhaven Hospital 2F.<br><br><strong>Beschreibung:</strong> <em>„Habe es im Krankenhauszimmer gefunden. Einfach eine gewöhnliche Trockenzellenbatterie.“</em><br><br><strong>Untersuchung:</strong> <em>„Es sieht so aus, als wäre es der gleiche Batterietyp wie bei der Taschenlampe.“</em><br><br><strong>Zweck:</strong> Ersetzt die alte Batterie der Taschenlampe, wenn diese im Historical Society-Bereich leer ist."
+        },
+        {
+            "id": 8,
+            "path": "sh2_models/items/x_coinelder.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 50],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Münze \"Alter Mann\"",
+            "description-text": "<strong>Fundort:</strong> Am Boden des Müllschachts vor den Wood Side Apartments, nachdem der Müll von 2F im Schacht des Müllschluckers gelöst wurde.<br><br><strong>Beschreibung:</strong> <em>„Große Münze mit dem Gesicht eines alten Mannes. Habe sie aus dem Müllschacht genommen.“</em><br><br><strong>Untersuchung:</strong> <em>„Sieht aus wie ein alter Mann.“</em><br><em>„Die Rückseite zeigt ein Grabstein.“</em> (Extra Riddle Level)<br><br><strong>Zweck:</strong> Eine der drei Münzen, die benötigt werden, um das Rätsel mit den alten Münzen in Raum 105, Blue Creek Apartments 1F zu lösen."
+        },
+        {
+            "id": 9,
+            "path": "sh2_models/items/x_coinprisoner.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 50],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Münze \"Häftling\"",
+            "description-text": "<strong>Fundort:</strong> Auf dem Nachttisch im Spiegelraum in Raum 109, Blue Creek Apartments 1F.<br><br><strong>Beschreibung:</strong> <em>„Große Münze mit dem Bild eines Gefangenen. Habe sie im westlichen Apartmentgebäude gefunden.“</em><br><br><strong>Untersuchung:</strong> <em>„Dieser Gefangene sieht aus wie eine Frau.“</em><br><em>„Die Rückseite zeigt ein Ei.“</em> (Extra Riddle Level)<br><br><strong>Zweck:</strong> Eine der drei Münzen, die benötigt werden, um das Old Coin Puzzle in Raum 105, Blue Creek Apartments 1F zu lösen."
+        },
+        {
+            "id": 10,
+            "path": "sh2_models/items/x_coinsnake.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 50],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Münze \"Schlange\"",
+            "description-text": "<strong>Fundort:</strong> Im Kinderwagen im entleerten Swimming Pool der Wood Side Apartments.<br><br><strong>Beschreibung:</strong> <em>„Große Münze mit einem Schlangenmotiv. Habe sie in diesem Pool ohne Wasser gefunden.“</em><br><br><strong>Untersuchung:</strong> <em>„Die Rückseite der Münze zeigt einen Halbmond.“</em> (Extra Riddle Level)<br><br><strong>Zweck:</strong> Eine der drei Münzen, die benötigt werden, um das Old Coin Puzzle in Raum 105, Blue Creek Apartments 1F zu lösen."
+        },
+        {
+            "id": 17,
+            "path": "sh2_models/items/x_juice.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 100, 250],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Saft in Dosen",
+           "description-text": "<strong>Fundort:</strong> Liegt vor der Tür zu Raum 107, Wood Side Apartments 1F.<br><br><strong>Beschreibung:</strong> <em>„Sechserpack Saftdosen. Es lag im Flur im 1. Stock.“</em><br><br><strong>Zweck:</strong> Löst den feststeckenden Müll aus dem Müllschacht im 2. Stock, Wood Side Apartments."
+        },
+        {
+            "id": 27,
+            "path": "sh2_models/items/x_plate_female.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 200],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Tafel \"Die Verführerin\"",
+            "description-text": "<strong>Fundort:</strong> Auf dem Boden in der nordöstlichen Dusche im Duschraum, Toluca Prison 1F.<br><br><strong>Beschreibung:</strong> <em>„Metalltäfelchen mit 'Verführerin' auf einer Seite. Fand es im Duschraum.“</em><br><br><strong>Zweck:</strong> Eines der drei Täfelchen, die in das Gerüst im Innenhof von Toluca Prison eingesetzt werden müssen."
+        },
+        {
+            "id": 28,
+            "path": "sh2_models/items/x_plate_kick.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 200],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Tafel \"Der Unterdrücker\"",
+            "description-text": "<strong>Fundort:</strong> Auf dem Bett in der siebten Zelle von Osten aus gesehen im nördlichen Zellblock, Toluca Prison 1F.<br><br><strong>Beschreibung:</strong> <em>„Metalltäfelchen mit 'Der Unterdrücker' auf einer Seite. Fand es in der Zelle.“</em><br><br><strong>Zweck:</strong> Eines der drei Täfelchen, die in das Gerüst im Innenhof von Toluca Prison eingesetzt werden müssen."
+        },
+        {
+            "id": 29,
+            "path": "sh2_models/items/x_plate_pig.mdl.gltf",
+            "scale": [2, 2, 2],
+            "cameraPosition": [0, 0, 200],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Tafel \"Gefräßiges Schwein\"",
+            "description-text": "<strong>Fundort:</strong> Auf dem Tisch im hinteren Bereich der Cafeteria, Toluca Prison 1F.<br><br><strong>Beschreibung:</strong> <em>„Metalltäfelchen mit 'Völler Schwein' auf einer Seite. Fand es im Speisesaal.“</em><br><br><strong>Zweck:</strong> Eines der drei Täfelchen, die in das Gerüst im Innenhof von Toluca Prison eingesetzt werden müssen."
+        }
+    ],
+    "keys": [
+        {
+            "id": 1,
+            "path": "sh2_models/keys/x_key3f.mdl.gltf",
+            "scale": [8, 8, 8],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zur Hoteltreppe",
+            "description-text": "<strong>Fundort:</strong> Auf dem großen Musikbox-Drehteller nach dem Lösen des Musikbox-Rätsels in der Lobby, Lake View Hotel 1F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zur Tür vom Treppenhaus zum 3. Stock Flur. Er war in der großen Musikbox in der Lobby versteckt.“</em><br><br><strong>Zweck:</strong> Öffnet das Tor, das den 3F-Korridor vom Treppenhaus im Lake View Hotel blockiert."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/keys/x_key202.mdl.gltf",
+            "scale": [12, 12, 12],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zu Zimmer 202",
+            "description-text": "<strong>Fundort:</strong> Auf dem Bücherregal in Raum 208, Wood Side Apartments 2F, nach dem Erhalten der Handfeuerwaffe und dem Versuch, den Schlüssel im 3. Stock zu erreichen.<br><br><strong>Beschreibung:</strong> <em>„202“ steht auf dem Schlüssel. Ich habe ihn in Raum 208 gefunden.</em><br><br><strong>Zweck:</strong> Öffnet Raum 202, Wood Side Apartments 2F."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/keys/x_key312.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zu Hotelzimmer 312",
+            "description-text": "<strong>Fundort:</strong> In einem der Schlüsselkasten hinter dem Empfangstresen, Lake View Hotel 1F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel für Zimmer Nummer 312 im Hotel. Lag hinter dem Empfangstresen der Lobby.“</em><br><br><strong>Untersuchen:</strong> <em>„Zimmer 312 ist das Zimmer, in dem Mary und ich vor drei Jahren übernachtet haben.“</em><br><br><strong>Zweck:</strong> Öffnet Zimmer 312, Lake View Hotel 3F."
+        },
+        {
+            "id": 4,
+            "path": "sh2_models/keys/x_keybar.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zur Bar",
+            "description-text": "<strong>Fundort:</strong> Hängt am Kessel im Heizungsraum, Lake View Hotel B1F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zur Tür, die vom unterirdischen Hotelbar zum Flur führt. Fand ihn im Heizungsraum.“</em><br><br><strong>Zweck:</strong> Öffnet die Tür zum ‚Venus Tears‘-Bar von innen, Lake View Hotel B1F."
+        },
+        {
+            "id": 5,
+            "path": "sh2_models/keys/x_keybase.mdl.gltf",
+            "scale": [6, 6, 6],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zum Lagerraum im Keller",
+            "description-text": "<strong>Fundort:</strong> Auf dem Sims über den ausgreifenden Armen in Raum M6, Brookhaven Hospital 2F.<br><br><strong>Beschreibung:</strong> <em>„Es war in der Wand mit diesem seltsamen Gemälde. Es ist der Schlüssel zum Vorratsraum im Krankenhauskeller.“</em><br><br><strong>Zweck:</strong> Öffnet den Vorratsraum im Keller, Nightmare Hospital."
+        },
+        {
+            "id": 6,
+            "path": "sh2_models/keys/x_keybronze.mdl.gltf",
+            "scale": [6, 6, 6],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Alter Bronzeschlüssel",
+            "description-text": "<strong>Fundort:</strong> In der vergrabenen Blechbox hinter der betenden Frauenstatue im Rosewater Park, South Vale bei Nacht (Schraubenschlüssel erforderlich zum Öffnen).<br><br><strong>Beschreibung:</strong> <em>„Antik aussehender bronzener Schlüssel. Er war hinter einer der Statuen versteckt, die im Park aufgestellt sind.“</em><br><br><strong>Zweck:</strong> Öffnet die Silent Hill Historical Society in Dark South Vale."
+        },
+        {
+            "id": 7,
+            "path": "sh2_models/keys/x_keyclock.mdl.gltf",
+            "scale": [22, 21, 21],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel mit Uhr",
+            "description-text": "<strong>Fundort:</strong> In dem Loch in der Wand im offenen Schlafzimmer von Raum 202, Wood Side Apartments 2F.<br><br><strong>Beschreibung:</strong> <em>„Am Ende des Schlüssels befindet sich eine kleine Uhr. Sie war in einem Loch in der Wand in Raum 202.“</em><br><br><strong>Untersuchung:</strong> <em>„Jetzt, wo ich darüber nachdenke, gab es eine große Uhr in Raum 208...“</em> (nach der Untersuchung der Uhr)<br><br><strong>Zweck:</strong> Öffnet das Zifferblatt der Uhr in Raum 208, Wood Side Apartments 2F."
+        },
+        {
+            "id": 8,
+            "path": "sh2_models/keys/x_keycourt.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 550],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zum Hof",
+            "description-text": "<strong>Fundort:</strong> Im Schrank, in dem James sich versteckt, in Raum 307, Wood Side Apartments 3F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zur Tür, die vom Westtreppenhausflur zum Innenhof führt.“</em><br><br><strong>Untersuchung:</strong> <em>„Es steht 'Innenhof' drauf.“</em><br><br><strong>Zweck:</strong> Öffnet die Tür zum Innenhof in der Westlobby, Wood Side Apartments 1F."
+        },
+        {
+            "id": 9,
+            "path": "sh2_models/keys/x_keyelevator.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 3.14],
+            "modelPosition": [0, -400, 0],
+            "description-heading": "Schlüssel zum Aufzug",
+            "description-text": "<strong>Fundort:</strong> Im Duschabfluss im Duschraum, Brookhaven Hospital 3F (Bent Needle und Piece of Hair erforderlich).<br><br><strong>Beschreibung:</strong> <em>„'Patientenflügel Aufzug' ist auf dem Anhänger geschrieben. Es war im Badrohr stecken.“</em><br><br><strong>Zweck:</strong> Öffnet die Abdeckung, um den Aufzug zum Patientenflügel von 3F oder 2F, Brookhaven Hospital, zu rufen."
+        },
+        {
+            "id": 10,
+            "path": "sh2_models/keys/x_keyemerg.mdl.gltf",
+            "scale": [18, 18, 18],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel für Nottreppe",
+            "description-text": "<strong>Fundort:</strong> Auf dem Boden auf der Ostseite der Gitter in der Wood Side Apartments 3F Flur.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zur Tür, die vom Flur zur Feuerleiter führt. Gefunden im Flur des 3. Stocks.“</em><br><br><strong>Untersuchung:</strong> <em>„Das Etikett daran sagt 'Feuerleiter'. Ich habe mir das Bein darauf das erste Mal gestoßen, als ich versuchte, diesen zu holen. Ich frage mich, was mit diesem Kind passiert ist...?“</em><br><br><strong>Zweck:</strong> Öffnet die Tür zur Feuerleiter am westlichen Ende des Flurs in Wood Side Apartments 2F."
+
+        },
+        {
+            "id": 11,
+            "path": "sh2_models/keys/x_keyemploy.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel zum Mitarbeiteraufzug",
+            "description-text": "<strong>Fundort:</strong> Auf dem Schreibtisch in Zimmer 204, Lake View Hotel 2F.<br><br><strong>Beschreibung:</strong> <em>„Der Anhänger sagt: ‚Mitarbeiteraufzug.‘ Habe ihn in Zimmer 204 gefunden.“</em><br><br><strong>Zweck:</strong> Öffnet den Mitarbeiteraufzugraum im östlichen Korridor der 2. Etage, Lake View Hotel."
+        },
+        {
+            "id": 12,
+            "path": "sh2_models/keys/x_keyfalse.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel des fälschlich Angeklagten",
+            "description-text": "<strong>Fundort:</strong> Auf dem Boden, wo der zu Unrecht gehängte Mann im Leichenzimmer war, nach dem Ziehen der richtigen Schlinge im Schlingenzimmer, Labyrinth.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel, hinterlassen von einem Gefangenen, der zu Unrecht exekutiert wurde.“</em><br><br><strong>Zweck:</strong> Öffnet die Handschellen, die das Ventil zum Tor im Labyrinth verschließen."
+        },
+        {
+            "id": 13,
+            "path": "sh2_models/keys/x_keyfish.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel „Fisch“",
+            "description-text": "<strong>Fundort:</strong> Auf dem Teller auf dem gedeckten Tisch im Lake Shore Restaurant, Lake View Hotel 1F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel mit fischförmigem Schlüsselanhänger. Lag auf dem Restauranttisch.“</em><br><br><strong>Zweck:</strong> Öffnet den Koffer im Umkleideraum, Lake View Hotel 2F."
+        },
+        {
+            "id": 14,
+            "path": "sh2_models/keys/x_keygate.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel zum Apartment",
+            "description-text": "<strong>Fundort:</strong> Auf dem Boden direkt neben der Leiche am nördlichen Ende der Martin Street, East South Vale.<br><br><strong>Beschreibung:</strong> <em>„Alt aussehender Schlüssel, den ich in der Stadt gefunden habe.“</em><br><br><strong>Zweck:</strong> Öffnet das Eingangstor des Wood Side Apartments in der Katz Street, East South Vale."
+        },
+        {
+            "id": 15,
+            "path": "sh2_models/keys/x_keyhos.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel zur Eingangshalle des Krankenhauses",
+            "description-text": "<strong>Fundort:</strong> Auf dem Schreibtisch im Direktorenzimmer, Nightmare Hospital 1F.<br><br><strong>Beschreibung:</strong> <em>„Im Büro des Direktors gefunden. Schlüssel zum Haupteingang des Krankenhauses.“</em><br><br><strong>Zweck:</strong> Öffnet die Lobbytüren, Nightmare Hospital 1F."
+        },
+        {
+            "id": 16,
+            "path": "sh2_models/keys/x_keylyne.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel zum Haus Lyne",
+            "description-text": "<strong>Fundort:</strong> Im Sekretärenschreibtisch in Raum 105, Blue Creek Apartments 1F, nach der Lösung des alten Münzpuzzles.<br><br><strong>Beschreibung:</strong> <em>„Es war im Münzpuzzle-Schreibtisch. Das Etikett darauf sagt 'Lyne'.“</em><br><br><strong>Untersuchung:</strong> <em>„Das muss der Schlüssel sein, der in dem Notiz erwähnt wurde. Der, der sagt, dass er 'bei Onkel David hinterlassen wurde'.“</em> (nach dem Lesen der „Dear Tim“-Notiz an der Tür von Raum 209)<br><br><strong>Zweck:</strong> Öffnet Raum 209, Blue Creek Apartments 2F."
+        },
+        {
+            "id": 17,
+            "path": "sh2_models/keys/x_keynorth.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel zur Apartmenttreppe",
+            "description-text": "<strong>Fundort:</strong> Auf dem Bett im offenen Schlafzimmer von Raum 208, nachdem man von Raum 209 überquert hat, Blue Creek Apartments 2F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zur Tür, die vom westlichen Apartmentflur zur Treppe führt.“</em><br><br><strong>Untersuchung:</strong> <em>„Es steht 'Nordtreppe' darauf.“</em><br><br><strong>Zweck:</strong> Öffnet das nordwestliche Treppenhaus im 2. Stock der Blue Creek Apartments."
+        },
+        {
+            "id": 18,
+            "path": "sh2_models/keys/x_keypurple.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel „Purpurroter Bulle“",
+            "description-text": "<strong>Fundort:</strong> Neben der Schreibmaschine auf dem Schreibtisch im Dokumentenraum, Brookhaven Hospital 1F.<br><br><strong>Beschreibung:</strong> <em>„Ein Stier ist in Lila darauf gezeichnet. Es lag auf dem Schreibtisch im Dokumentenraum.“</em><br><br><strong>Zweck:</strong> Einer der zwei Schlüssel, die benötigt werden, um das „Louise“-Rätsel in Raum S14, Brookhaven Hospital 3F, zu lösen."
+        },
+        {
+            "id": 19,
+            "path": "sh2_models/keys/x_keyrapis.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel „Lapis-Auge“",
+            "description-text": "<strong>Fundort:</strong> In der Nachttischschublade in Raum M2, Brookhaven Hospital 2F.<br><br><strong>Beschreibung:</strong> <em>„Ein Auge ist in den oberen Teil des Schlüssels eingraviert. Der Iris-Bereich besteht aus Lapislazuli.“</em><br><br><strong>Zweck:</strong> Einer der zwei Schlüssel, die benötigt werden, um das „Louise“-Rätsel in Raum S14, Brookhaven Hospital 3F, zu lösen."
+        },
+        {
+            "id": 20,
+            "path": "sh2_models/keys/x_keyroof.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel für das Dach",
+            "description-text": "<strong>Fundort:</strong> Auf dem Nachttisch in Raum S3, Brookhaven Hospital 3F.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel zum Dach des Bürotrakt. Ich habe ihn im Krankenhauszimmer auf der 3. Etage gefunden, wo Maria ruht.“</em><br><br><strong>Zweck:</strong> Öffnet die Tür zum Dach, Brookhaven Hospital."
+        },
+        {
+            "id": 21,
+            "path": "sh2_models/keys/x_keyspiral.mdl.gltf",
+            "scale": [10, 10, 10],
+            "cameraPosition": [0, -450, 450],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Schlüssel mit Spiraltext",
+            "description-text": "<strong>Fundort:</strong> Auf dem Boden im Falltürraum im Abwasserbereich unterhalb der Silent Hill Historical Society.<br><br><strong>Beschreibung:</strong> <em>„Schlüssel mit einem schlanken, 3 Zoll langen Zylinder daran. Der Zylinder ist mit spiralförmigen Schriftzeichen graviert.“</em><br><br><strong>Untersuchung:</strong> <em>„Es steht: 'Zweifel führt dich ins Fegefeuer.'“</em><br><br><strong>Zweck:</strong> Öffnet das Tor auf dem Boden hinter dem Falltürraum im Abwasserbereich unterhalb der Historical Society."
+        }
+    ],
+    "healing-items": [
+        {
+            "id": 1,
+            "path": "sh2_models/healing-items/x_drink.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 100],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Gesundheitsdrink",
+            "description-text": "<strong>Fundort:</strong> Gesundheitsdrinks sind häufig zu finden und liegen oft an leicht zugänglichen Orten.<br><br><strong>Zweck:</strong> Sie stellen eine geringe Menge an Gesundheit wieder her und eignen sich gut für kleinere Verletzungen."
+        },
+        {
+            "id": 2,
+            "path": "sh2_models/healing-items/x_firstaid.mdl.gltf",
+            "scale": [1.1, 1.1, 1.1],
+            "cameraPosition": [0, -450, 100],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, -700, 0],
+            "description-heading": "Erste Hilfe Kasten",
+            "description-text": "<strong>Fundort:</strong> Erste-Hilfe-Kästen sind seltener verteilt und finden sich an wenigen ausgewählten Orten.<br><br><strong>Zweck:</strong> Sie stellen eine größere Menge an Gesundheit wieder her und sind ideal für ernsthaftere Verletzungen."
+        },
+        {
+            "id": 3,
+            "path": "sh2_models/healing-items/x_ample.mdl.gltf",
+            "scale": [1, 1, 1],
+            "cameraPosition": [0, 0, 100],
+            "rotation": [0, 0, 0],
+            "modelPosition": [0, 0, 0],
+            "description-heading": "Ampulle",
+            "description-text": "<strong>Fundort:</strong> Die Ampullen sind sehr selten zu finden.<br><br><strong>Zweck:</strong> Ampullen verhelfen James zur vollständigen Heilung."
+        }
+    ]
+}

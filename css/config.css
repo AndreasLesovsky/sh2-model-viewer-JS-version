@@ -1,0 +1,15 @@
+:root {
+  /* ---- Farben ---- */
+
+  --col-font: #4d4d4d;
+  --col-font-inverted: #f4f6fc;
+  --col-main: #db1111;
+  --col-main-dark: #a20d0d;
+
+  --col-bg-inverted: #252525;
+  --col-bg: #fff;
+
+  /* ---- Schriften ---- */
+  --font-std: 'Open Sans', Arial, sans-serif;
+  --font-headlines: 'Merriweather', 'Times New Roman', serif;
+}
